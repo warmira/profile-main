@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Społecznościowy</title>
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Portal Społecznościowy</h1>
+            <nav>
+                <a href="profile.html">Profil Użytkownika</a>
+                <a href="login.html">Zaloguj się</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <section class="search">
+            <h2>Wyszukiwarka znajomych</h2>
+            <form method="GET" action="search.php">
+                <input type="text" id="search" name="search" placeholder="Szukaj znajomych..." required>
+                <button type="submit">Szukaj</button>
+            </form>
+        </section>
+
+        <section class="gallery">
+            <h2>Zdjęcia użytkowników</h2>
+            <div class="photo-grid">
+                <div class="photo-item">
+                    <img src="photo1.jpg" alt="Zdjęcie użytkownika 1">
+                    <p>Jan Kowalski</p>
+                </div>
+                <div class="photo-item">
+                    <img src="photo2.jpg" alt="Zdjęcie użytkownika 2">
+                    <p>Anna Nowak</p>
+                </div>
+                <div class="photo-item">
+                    <img src="photo3.jpg" alt="Zdjęcie użytkownika 3">
+                    <p>Piotr Wiśniewski</p>
+                </div>
+                <div class="photo-item">
+                    <img src="photo4.jpg" alt="Zdjęcie użytkownika 4">
+                    <p>Katarzyna Wójcik</p>
+                </div>
+                </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="contact-info">
+            <h3>Kontakt</h3>
+            <p>Email: kontakt@portal.pl</p>
+            <p>Telefon: +48 123 456 789</p>
+            <p>Adres: Ul. Przykładowa 1, 00-001 Warszawa</p>
+        </div>
+        <p>2024 Wszystkie prawa zastrzeżone. Portal społecznościowy - znajdź i połącz się ze znajomymi.</p>
+    </footer>
+  
+</body>
+</html>
